@@ -1,0 +1,301 @@
+/* html {
+    --section-background-color: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.582),
+            rgba(12, 8, 24, 0.904));
+
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.678),
+            rgba(12, 10, 22, 0.863));
+
+    --imp-text-color: #7A0BC0;
+} */
+
+:root {
+    --dark: #1A1A40;
+    --darkPurple: #270082;
+    --purple: #7A0BC0;
+    --pink: #FA58B6;
+    --white: whitesmoke;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+    max-width: 100%;
+    border-width: 3px;
+    border-color: var(--purple);
+}
+
+
+.text-faded {
+    color: var(--white);
+}
+
+
+/* --Header-- */
+/* ------- */
+.header {
+    color: var(--purple)
+}
+
+
+/* --About me-- */
+/* ------- */
+.heading {
+    color: var(--pink)
+}
+
+.intro {
+    color: var(--white)
+}
+
+/* --resume-- */
+/* ------- */
+
+.backColor {
+    background-color: rgb(27 20 41);
+}
+
+/* --Navbar-- */
+/* ------- */
+
+.nav {
+    background-color: var(--darkPurple);
+
+}
+
+.TextWhite {
+    color: var(--white) !important;
+}
+
+/* --porfolio-- */
+/* ------- */
+
+
+
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: var(--white);
+    background: var(--pink);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.portfolio-box:focus {
+    outline: none;
+}
+
+.project {
+    height: 275px !important;
+    width: 350px !important;
+}
+
+.box {
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--pink);
+}
+
+.justify {
+    justify-content: center;
+}
+
+/* --------- */
+/* Home section */
+/* --------- */
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#tsparticles {
+    position: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+
+.home-header {
+    padding-top: 80px !important;
+}
+
+.home-section {
+    position: relative;
+    z-index: -1;
+
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: var(--white);
+    text-align: left;
+}
+
+.heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+}
+
+.heading-name {
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
+}
+
+.main-name {
+    color: var(--pink);
+}
+
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: var(--pink) !important;
+    font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: var(--pink) !important;
+}
+
+@media (max-width: 767px) {
+    .Typewriter__wrapper {
+        font-size: 1.4em !important;
+        font-weight: 500 !important;
+        position: absolute !important;
+    }
+
+    .Typewriter__cursor {
+        display: none !important;
+    }
+}
+
+/* Footer */
+/* --------- */
+.footer {
+
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+}
+
+.footer-copywright {
+    text-align: center !important;
+    color: var(--purple)
+}
+
+.footer-body {
+    z-index: 1;
+    text-align: center !important;
+
+}
+
+.social-icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.social-icons:hover {
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
+
+}
