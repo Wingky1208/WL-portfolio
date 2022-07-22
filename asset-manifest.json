@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/WL-portfolio/static/css/main.871d8b6a.css",
+    "main.js": "/WL-portfolio/static/js/main.3b5fa597.js",
+    "static/js/787.30237536.chunk.js": "/WL-portfolio/static/js/787.30237536.chunk.js",
+    "static/media/cv.png": "/WL-portfolio/static/media/cv.127f865bf70699786e6b.png",
+    "static/media/rideCompare.png": "/WL-portfolio/static/media/rideCompare.61112053335f448c68ef.png",
+    "static/media/wordGame.png": "/WL-portfolio/static/media/wordGame.c544f246a9794122e1c1.png",
+    "static/media/mainPage.png": "/WL-portfolio/static/media/mainPage.cc005b5b5f018c00244d.png",
+    "static/media/techBlog.png": "/WL-portfolio/static/media/techBlog.1b2c9f166d2657a4422c.png",
+    "static/media/weatherForecast.png": "/WL-portfolio/static/media/weatherForecast.e444e38a0a7b45e8d8e7.png",
+    "static/media/workScheduler.png": "/WL-portfolio/static/media/workScheduler.86309fc5e06c19458d00.png",
+    "static/media/passwordGenerator.png": "/WL-portfolio/static/media/passwordGenerator.aa25cbf89939def02f6b.png",
+    "index.html": "/WL-portfolio/index.html",
+    "main.871d8b6a.css.map": "/WL-portfolio/static/css/main.871d8b6a.css.map",
+    "main.3b5fa597.js.map": "/WL-portfolio/static/js/main.3b5fa597.js.map",
+    "787.30237536.chunk.js.map": "/WL-portfolio/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.871d8b6a.css",
+    "static/js/main.3b5fa597.js"
+  ]
+}
