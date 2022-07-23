@@ -7,20 +7,28 @@
 
 ![Screen Shot 2022-07-23 at 12 12 13 AM](https://user-images.githubusercontent.com/100000900/180590249-35ff03da-6655-4b93-af58-a31f98baf442.png)
 
+![Screen Shot 2022-07-23 at 12 24 14 AM](https://user-images.githubusercontent.com/100000900/180590299-467d07f2-2f07-4f3d-8692-9f6d89f1ad27.png)
 
-##Built With
+## Github deployment
+https://wingky1208.github.io/WL-portfolio/
+
+## Built With
 My personal portfolio which features some of my github projects as well as my resume and technical skills.
 
-##This project was built using these technologies.
+## This project was built using these technologies.
 
 React.js
+
 Node.js
+
 Express.js
+
 CSS3
+
 VsCode
 
 
-##Features
+## Features
 📖 Multi-Page Layout
 
 🎨 Styled with React-Bootstrap and Css with easy to customize colors
