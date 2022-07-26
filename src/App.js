@@ -23,10 +23,10 @@ function App() {
 
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/porfolio' element={<Porfolio />} />
-          <Route path='/resume' element={<Resume />} />
+          <Route exact path="/WL-portfolio" element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/porfolio' element={<Porfolio />} />
+          <Route exact path='/resume' element={<Resume />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
 
