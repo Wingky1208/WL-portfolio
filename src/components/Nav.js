@@ -19,7 +19,7 @@ function Navbar2() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
 
-                        <Nav.Link className='TextWhite' href="/WL-portfolio">
+                        <Nav.Link className='TextWhite' href="/">
                             <AiOutlineHome style={{ marginBottom: "2px" }} />
                             Home</Nav.Link>
 

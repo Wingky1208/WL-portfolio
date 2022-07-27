@@ -21,7 +21,7 @@ export default function Home() {
 
                             <h1 className="heading-name">
                                 I'M
-                                <strong className="main-name"> WINGKY LEUNG</strong>
+                                <strong className="main-name"> WINGKY LIANG</strong>
                             </h1>
 
                             <div style={{ padding: 50, textAlign: "left" }}>
