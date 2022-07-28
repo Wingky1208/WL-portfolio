@@ -7,6 +7,8 @@
 
 ![Screen Shot 2022-07-23 at 12 12 13 AM](https://user-images.githubusercontent.com/100000900/180590249-35ff03da-6655-4b93-af58-a31f98baf442.png)
 
+![Screen Shot 2022-07-27 at 8 51 06 PM](https://user-images.githubusercontent.com/100000900/181397137-9be96bf0-a06e-4457-b001-890efaaef5be.png)
+
 ![Screen Shot 2022-07-23 at 12 24 14 AM](https://user-images.githubusercontent.com/100000900/180590299-467d07f2-2f07-4f3d-8692-9f6d89f1ad27.png)
 
 ## Github deployment
