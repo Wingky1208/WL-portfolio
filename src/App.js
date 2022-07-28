@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar2 from './components/Nav';
 import Footer from './components/Footer';
@@ -16,26 +16,19 @@ function App() {
 
 
   return (
-    <HashRouter basename='/'>
-      <div>
-        <Header />
-        <Navbar2 />
 
+    <div>
+      <Header />
+      <Navbar2 />
+      <Route path="/" element={<Home />} />
+      <Route exact path='/about' element={<About />} />
+      <Route exact path='/porfolio' element={<Porfolio />} />
+      <Route exact path='/resume' element={<Resume />} />
+      <Route exact path='/contact' element={<Contact />} />
+      <Route exact path='/contact' element={<Contact />} />
+      <Footer />
+    </div>
 
-
-
-        <Route path="/WL-portfolio" element={<Home />} />
-        <Route exact path='/about' element={<About />} />
-        <Route exact path='/porfolio' element={<Porfolio />} />
-        <Route exact path='/resume' element={<Resume />} />
-        <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/contact' element={<Contact />} />
-
-
-
-        <Footer />
-      </div>
-    </HashRouter>
 
   );
 }
